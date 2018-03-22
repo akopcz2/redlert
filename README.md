@@ -4,7 +4,7 @@ If the host is down, you will get a Alert, as well as a screenshot and timestamp
 
 ### How it works
 REDLERT Launches a puppeteer instance that accesses the running server (initialized by server.js)
-If there is an issue, a screenshot of the page will be taken and an alert with be fired.
+If there is an issue, a screenshot of the page will be taken and an alert will be fired.
 
 
 ## Initial Steps
