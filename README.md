@@ -2,6 +2,11 @@
 Redlert module is meant to be used to monitor the uptime of desired host(s).
 If the host is down, you will get a Alert, as well as a screenshot and timestamp of occurence.
 
+### How it works
+REDLERT Launches a puppeteer instance that accesses the running server (initialized by server.js)
+If there is an issue, a screenshot of the page will be taken and an alert with be fired.
+
+
 ## Initial Steps
 Create a .env file in your root directory like the following
 ``` html
