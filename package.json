@@ -1,0 +1,20 @@
+{
+  "name": "asg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"node server.js",
+    "crawler":"node app.js",
+    "start":"npm run server & npm run crawler"
+  },
+  "author": "Adrian Kopczewski",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "puppeteer": "^1.2.0"
+  }
+}
