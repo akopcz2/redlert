@@ -5,7 +5,7 @@ const axios = require('axios');
 const host = process.env.HOST;
 const port = process.env.PORT;
 const app = express();
-let screenShot = require('./util');
+let screenShot = require('./util/scripts');
 
 app.get('/', (req, res) => {
     axios.get(`${host}`)
